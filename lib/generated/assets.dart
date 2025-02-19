@@ -7,9 +7,9 @@ class Assets {
   static const String libMain = 'lib/main.dart';
   static const String libPROVIDERDOCS = 'lib/PROVIDER_DOCS.md';
   static const String modelsProductModel = 'lib/data/models/product_model.dart';
+  static const String productsScreenMainScreen = 'lib/ui/products_screen/main_screen.dart';
   static const String repositoryProductRepository = 'lib/data/repository/product_repository.dart';
   static const String servicesProductApi = 'lib/data/services/product_api.dart';
-  static const String uiMainScreen = 'lib/ui/main_screen.dart';
   static const String viewModelProductView = 'lib/view_model/product_view.dart';
 
 }

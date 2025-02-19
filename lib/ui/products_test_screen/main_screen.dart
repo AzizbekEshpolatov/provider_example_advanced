@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../view_model/product_view.dart';
+import '../../view_model/product_view.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});

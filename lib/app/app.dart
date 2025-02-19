@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_example/data/services/product_api.dart';
-import 'package:flutter_bloc_example/ui/main_screen.dart';
+import 'package:flutter_bloc_example/ui/products_test_screen/main_screen.dart';
 import 'package:provider/provider.dart';
 import '../data/repository/product_repository.dart';
 import '../view_model/product_view.dart';
