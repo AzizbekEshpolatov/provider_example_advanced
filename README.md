@@ -1,16 +1,23 @@
-# flutter_bloc_example
+# Provider Advanced Concepts Example Project
 
-A new Flutter project.
+Bu loyiha Flutter dasturlash muhitida Provider state management package'dan foydalanib, advanced tushunchalarni o'rganish uchun yaratilgan kichik test ilova hisoblanadi.
 
-## Getting Started
+## Project Overview
+Loyihaning asosiy maqsadi quyidagi advanced Provider tushunchalarini o'z ichiga olgan holda amaliyot qilish:
 
-This project is a starting point for a Flutter application.
+- **ChangeNotifier** – State boshqaruvi va `notifyListeners()` ishlatish.
+- **Provider.of vs. context.watch vs. context.read** – Farqlari va qachon qaysi biri ishlatilishi.
+- **MultiProvider** – Bir nechta provider'larni birlashtirish.
+- **ProxyProvider** – Boshqa provider'ga bog'liq provider yaratish.
+- **Selector** – Widget rebuild jarayonlarini optimallashtirish.
+- **ValueNotifier** – Engil state boshqaruvi uchun ishlatiladi.
+- **Scoped Providers** – Muayyan widget daraxtiga state berish.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- ChangeNotifier yordamida oddiy counter misoli.
+- MultiProvider orqali bir nechta provider'lar ishlatish.
+- ProxyProvider orqali provider'lar o'rtasida bog'liqlik.
+- Selector yordamida keraksiz widget rebuild'larni oldini olish.
+- Scoped Provider orqali faqat ma'lum widget bo'lagi uchun state berish.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
