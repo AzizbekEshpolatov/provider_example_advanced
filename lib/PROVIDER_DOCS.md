@@ -88,8 +88,32 @@ Selector<CounterProvider, int>(
 ```
 
 ## ValueNotifier
+Kichik state uchun, masalan, bitta son, string yoki boolean uchun ChangeNotifier ishlatib yurish 
+ortiqcha bo‘ladi. ValueNotifier esa bitta qiymatga o‘ralgan notifier.
+Qiymat o‘zgarsa – u ham listenerlarga xabar beradi.
+```flutter
+final ValueNotifier<int> counter = ValueNotifier<int>(0);
 
-Bu ChangeNotifier ga nisbatan engil state boshqarish uchun ishlatiladi.
+// Qiymatni o'zgartirish
+counter.value++;
+
+// Qiymatni olish
+print(counter.value);
+
+```
+
+```flutter
+ValueListenableBuilder<int>(
+  valueListenable: counter,
+  builder: (context, value, child) {
+    return Text(
+      '$value',
+      style: const TextStyle(fontSize: 24),
+    );
+  },
+);
+
+```
 
 ### Misol:
 
